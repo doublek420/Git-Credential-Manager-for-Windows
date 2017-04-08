@@ -21,6 +21,8 @@ namespace GitHub.UI
         // Fake char to display in Visual Tree
         private const char pwdChar = '●';
 
+        
+
         // flag used to bypass OnTextChanged
         private bool dirtyBaseText;
 

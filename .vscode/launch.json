@@ -1,0 +1,77 @@
+    {
+        // Use IntelliSense to find out which attributes exist for node debugging
+        // Use hover for the description of the existing attributes
+        // For further information visit https://go.microsoft.com/fwlink/?linkid=830387
+        "version": "0.2.0",
+        "configurations": [
+            {
+                "type": "node2",
+                "request": "launch",
+                "name": "Launch Program",
+                "program": "${workspaceRoot}/app.js",
+                "cwd": "${workspaceRoot}"
+            },
+            {
+                "type": "node",
+                "request": "attach",
+                "name": "Attach to Port",
+                "port": 5858
+            },
+            {
+                "type": "node",
+                "request": "attach",
+                "name": "Attach to Port",
+                "port": 5858
+            },
+            {
+                "type": "node",
+                "request": "attach",
+                "name": "Attach to Port",
+                "port": 9229
+            },
+            debugServer{
+                "type": "PowerShell",
+                "request": "launch",
+                "name": "PowerShell Launch (current file)",
+                "script": "${file}",
+                "args": [],
+                "cwd": "${file}"
+            },
+            {
+                "type": "node2",
+                "request": "launch",
+                "name": "Launch Program",
+                "program": "${workspaceRoot}/app.js",
+                "internalConsoleOptions": "openOnFirstSessionStart",
+                "debugServer": 0,
+                "cwd": "${workspaceRoot}"
+            },
+            {
+                "type": "node",
+                "request": "attach",
+                "name": "Attach to Port",
+                "localRoot": null,
+                "port": 9229
+            },
+            {
+                "type": "node2",
+                "request": "launch",
+                "name": "Launch Program",
+                "program": "${workspaceRoot}/app.js",
+                "cwd": "${workspaceRoot}"
+            },
+            {
+                "name": "Launch Program",
+                "type": "node2",
+                "request": "launch",
+                "program": "${workspaceRoot}/app.js",
+                "cwd": "${workspaceRoot}"
+            },
+            {
+                "name": "Attach to Process",
+                "type": "node2",
+                "request": "attach",
+                "port": 9229
+            }
+        ]
+    }
